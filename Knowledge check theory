@@ -1,0 +1,87 @@
+1.Example of Element.
+<h1>Good Morning<h1>
+
+Example of Atribute.
+text-align: center;
+
+Example of Enttites.
+&lt; to descibre less than
+
+2.Ways to describe the colour white 
+a)color: white;
+b)color: rgb(255,255,255);
+c)color: #FFFFFF;
+
+3. A Way to change the state of a link.
+a)<a>
+   <img src="smile.gif"
+   </a>
+ 4. Difference betweeen class attribute and id.
+ A class attribute is a class name that can be used by multiple HTML elements.
+ Example.
+ <h2 class="city">Kuala lumpur.</h2>
+ 
+ While an id is used by one HTML element.
+ Example.
+ <h2 id="R4">Row 4</h2>
+
+ 5.Introduntion to HTML5
+ a)HTML means Hyper Text Markup Language
+ b)HTML is used for difining a web page structure
+ c)HTML is the standard markup language for creating web pages
+
+
+   
+6.Changeing the font in your website.
+ Example 
+1.
+ h1 {
+   font-size: 40px;
+
+ }
+
+2.
+ h1 {
+   font-family: 'Chango', cursive;
+ }
+
+ 7.ways to include CSS into your HTML file.
+ a)
+  body {
+     background-color: rgb(255,255,0);
+  }
+  b)
+  table {
+     border-collapse: collapse;
+     border-radius: 10pxl;
+  }
+  8.Css properties for the following
+  a)aligning text horizontally
+   h1 {
+     text-align: left;
+   }
+
+  h1 {
+    text-align: right;
+  }
+
+  b)aligning text vertically
+
+   h1 {
+     text-align: center;
+   }
+
+   C)Transforming to uppercase/lowercase
+
+   h1 {
+    text-tarnsform: uppercase;
+   }
+
+   h1 {
+     text-transform: lowercase;
+
+   }
+
+   D) Adding strike into text.
+
+   <p><s>My house is red.</s></p>
